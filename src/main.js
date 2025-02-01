@@ -124,7 +124,7 @@ const mixin = {
                 return this.getPreferenceString("auth_instance_url", this.apiUrl());
             } else return this.apiUrl();
         },
-        getAuthToken() {
+        getAuthToken() {API_SECRET 
             return this.getPreferenceString("authToken" + this.hashCode(this.authApiUrl()));
         },
         hashCode(s) {
